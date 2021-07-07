@@ -15,7 +15,7 @@
 ## Programming Languages
 <img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' height='30'/><span> Python</span>
  
-## If U Want GoogleDork Function?
+### IF You Want GoogleDork Function?
 ```python
 def GOscan(URLTARGET,DORKUSERFILE):
 	DOKERLIST = []
@@ -41,13 +41,10 @@ def GOscan(URLTARGET,DORKUSERFILE):
 			time.sleep(1)
 ```
  
-## Current Works
-<img src="images/XDGLOGO.png">
- 
-## Other Stuff
-  - :octocat: [My Resume](https://drive.google.com/file/d/1uxq1shtoVfoD8D4sD5MHN3drGVA50vlz/view?usp=sharing)
-  - If you have any suggestions to this README, feel free to pull up a request. And if you liked it, go ahead and use it for yourself.(P.S. Star it too!!:grimacing: )
 
-![Haany's github stats](https://github-readme-stats.vercel.app/api?username=XZRFMA&show_icons=true&hide=[%22issues%22])
+<img src="images/XDGLOGO.png" width=47% align='right'>
+<img src="images/XDG-TEM.png" width=47% align='left'>
+
+![XAR's github stats](https://github-readme-stats.vercel.app/api?username=XZRFMA&show_icons=true&hide=[%22issues%22])
  
  
