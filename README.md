@@ -26,6 +26,8 @@ def GOscan(URLTARGET,DORKUSERFILE):
 			SETGOWEBS  = 'https://www.google.com/search?q='+SETGODORK+'&client=firefox-b-d&start=0'
 			REQGODORK  = urllib.request.Request(SETGOWEBS)
 			REQGODORK.add_header('User-Agent', 'Mozilla/7000.0 XAR')
+			REQGODORK.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8')
+			REQGODORK.add_header('Accept-Language', 'en-US,en;q=0.8')
 			#---------------------------------------------
 			REQGOOGLE  = urllib.request.urlopen(REQGODORK, timeout=10)
 			RESGODORK  = REQGOOGLE.read()
