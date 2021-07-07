@@ -1,10 +1,8 @@
-<h1>Welcome to XDGe</h1> 
+<h1>Welcome to XDGe :egypt:</h1> 
 
 <img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/ICON.png' width=255 alt = 'Awesome Tool LOL' align='right'/>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=XZRFMA" alt="XAR" /> </p>
-
-<div style="text-align: right">There are 10 types of people in the world. Those who get Binary and those who don't.. </div>
 
 ## :computer: What Does The Tool Support?
 - [x] Brute Force The Website Files
