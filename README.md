@@ -11,8 +11,6 @@
   <p align="center">
     An AWESOME TOOL To SCANNING WEBSITE!
     <a href="https://discord.gg/kz4Y5fa9x9"><img src="https://img.shields.io/discord/733027681184251937.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
-    
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
   </p>
 </p>
 
