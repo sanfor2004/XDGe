@@ -54,6 +54,7 @@ def GOscan(URLTARGET,DORKUSERFILE):
 					pass
 				else:
 					print(DO)
+					SaveGOData(DO)
 			time.sleep(1)
 
 
