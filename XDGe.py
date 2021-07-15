@@ -113,7 +113,7 @@ def Main():
 	 ╚███╔╝ ███████║██████╔╝ ( """+retimeloc+"""  )
 	 ██╔██╗ ██╔══██║██╔══██╗ (All CopyRight Save  )
 	██╔╝ ██╗██║  ██║██║  ██║ 	
-	╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ (Discord :  https://discord.gg/kz4Y5fa9x9 )"""
+	╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ """
 	print(bannar)
 	uINPTARGET = input("\n(https://www.exampla.com) Please Pute The Website :")
 	uINP = input("\n Use OUR WordList [y/n] :")
