@@ -1,8 +1,8 @@
-<h1>Welcome to XDGe :egypt:</h1> 
+<h1>Welcome to XDGe</h1> 
 
 <img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/ICON.png' width=255 alt = 'Awesome Tool LOL' align='right'/>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=XZRFMA" alt="XAR" />   <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" height="20px" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a></p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=XZRFMA" alt="XAR" />   <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" height="20px" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
 
 ## :computer: What Does The Tool Support?
 - [x] Brute Force The Website Files
