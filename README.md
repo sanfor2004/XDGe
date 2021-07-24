@@ -2,16 +2,15 @@
 
 <img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/ICON.png' width=255 alt = 'Awesome Tool LOL' align='right'/>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=XZRFMA" alt="XAR" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=XZRFMA" alt="XAR" />   <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" height="20px" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a></p>
 
 ## :computer: What Does The Tool Support?
 - [x] Brute Force The Website Files
 - [X] Using Google Dork To Get More Data
 - [ ] Making Lunch
-<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=XZRFMA&layout=compact">
 
 ## Programming Languages
-<img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' height='30'/><span> Python</span>
+<img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' height='30'/><span> Python3</span>
  
 ### IF You Want GoogleDork Function?
 ```python
@@ -46,5 +45,6 @@ def GOscan(URLTARGET,DORKUSERFILE):
 <img src="images/XDG-TEM.png" width=47% align='left'>
 
 ![XAR's github stats](https://github-readme-stats.vercel.app/api?username=XZRFMA&show_icons=true&hide=[%22issues%22])
+
  
  
