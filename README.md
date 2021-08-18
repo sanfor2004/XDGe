@@ -11,13 +11,16 @@
 
 
 ## What Does The Tool Support?
-- [x] Brute Force The Website Files
+- [X] http proxy
+- [X] http authentication
+- [X] User-Agent List
+- [X] Multi Process in Same Time
 - [X] Using Google Dork To Get More Data
-- [ ] Making Lunch
+
 
 ## Programming Languages
-<img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' height='30'/><span> Python3</span>
- 
+<img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' height='30'/>
+
 ### IF You Want GoogleDork Function?
 ```python
 def GOscan(URLTARGET,DORKUSERFILE):
