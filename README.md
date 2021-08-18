@@ -1,4 +1,4 @@
-<img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/text.png' width=255 alt = 'Awesome Tool LOL' align='right'/>
+<img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/text.png' width=255 alt = 'Awesome Tool LOL' align='left'/>
  
 
 <img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/logo.png' width=255 alt = 'Awesome Tool LOL' align='right'/>
