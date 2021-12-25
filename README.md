@@ -53,7 +53,7 @@ def GOscan(URLTARGET,DORKUSERFILE):
 <img src="images/XDGLOGO.png" width=47% align='right'>
 <img src="images/XDG-TEM.png" width=47% align='left'>
 
-![XAR's github stats](https://github-readme-stats.vercel.app/api?username=XZRFMA&show_icons=true&hide=[%22issues%22])
+![XAR's github stats](https://github-readme-stats.vercel.app/api?username=XAMFRA&show_icons=true&hide=[%22issues%22])
 
  
  
