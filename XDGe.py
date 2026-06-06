@@ -19,6 +19,16 @@ Usage (CLI):
 # ─────────────────────────────────────────────────────────────────────────────
 
 import sys
+
+# Force UTF-8 encoding on Windows console streams to prevent UnicodeEncodeError
+if sys.platform.startswith("win"):
+    try:
+        if hasattr(sys.stdout, "reconfigure"):
+            getattr(sys.stdout, "reconfigure")(encoding="utf-8")
+        if hasattr(sys.stderr, "reconfigure"):
+            getattr(sys.stderr, "reconfigure")(encoding="utf-8")
+    except Exception:
+        pass
 import os
 import re
 import json
@@ -47,7 +57,10 @@ try:
     from rich.progress import (
         Progress, SpinnerColumn, BarColumn,
         TextColumn, TimeElapsedColumn, MofNCompleteColumn,
+        ProgressColumn,
     )
+    # pyrefly: ignore [missing-import]
+    from rich.text import Text
     # pyrefly: ignore [missing-import]
     from rich.panel import Panel
     # pyrefly: ignore [missing-import]
@@ -183,6 +196,16 @@ NORMAL_WORDLISTS: list[str] = [
 # ─────────────────────────────────────────────────────────────────────────────
 
 console = Console()
+
+
+class RequestsPerSecondColumn(ProgressColumn):
+    """Renders requests per second safely, avoiding format errors on None values."""
+    def render(self, task) -> Text:
+        speed = task.speed
+        if speed is None:
+            return Text("? r/s", style="dim")
+        return Text(f"{speed:.0f} r/s", style="cyan")
+
 
 # Thread-safe global result accumulator & live statistics
 found_results: list[dict] = []
@@ -910,7 +933,7 @@ async def _async_main(
         TextColumn("[progress.description]{task.description}"),
         BarColumn(bar_width=28),
         MofNCompleteColumn(),
-        TextColumn("[cyan]{task.speed:.0f}[/cyan] [dim]r/s[/dim]"),
+        RequestsPerSecondColumn(),
         TimeElapsedColumn(),
         console=console,
         transient=False,

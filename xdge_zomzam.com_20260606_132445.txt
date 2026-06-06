@@ -1,0 +1,5 @@
+https://zomzam.com/.htpasswd
+https://zomzam.com/.htaccess
+https://zomzam.com/~root
+https://zomzam.com/~root/
+https://zomzam.com/web-console/ServerInfo.jsp%00

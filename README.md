@@ -6,6 +6,10 @@
 
 An enterprise-grade, asynchronous web directory scanner and search engine dorking utility. Engineered with Python's `asyncio` framework for high-throughput concurrency, `aiohttp` for non-blocking network requests, and `rich` for an interactive CLI experience.
 
+<p align="center">
+  <img src="images/Screenshot%202026-06-06%20132905.png" width="100%" alt="XDGe Screenshot" />
+</p>
+
 ---
 
 ## How It Works
