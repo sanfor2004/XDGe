@@ -1,0 +1,12 @@
+{
+  "pythonVersion": "3.14",
+  "pythonPlatform": "Windows",
+  "venvPath": "C:\\Users\\2004s\\AppData\\Local\\Python",
+  "pythonPath": "C:\\Users\\2004s\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "extraPaths": [
+    "C:\\Users\\2004s\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages"
+  ],
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "reportMissingModuleSource": "none"
+}

@@ -1,0 +1,8 @@
+# XDGe v2.0.0 — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Async HTTP client — replaces urllib for high-concurrency scanning
+aiohttp>=3.9.0
+
+# Rich terminal UI — progress bars, color tables, panels
+rich>=13.7.0

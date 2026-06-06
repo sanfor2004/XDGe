@@ -1,7 +1,9 @@
-<img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/text.png' width=500 alt = 'Awesome Tool LOL' align='left'/>
- 
+<p align="center">
+  <img src="images/banner.png" width="100%" alt="XDGe Repository Banner" />
+</p>
 
-<img src = 'https://github.com/XZRFMA/XDGe/blob/XAR/images/logo.png' width=255 alt = 'Awesome Tool LOL' align='right'/><br>
+<img src="images/text.png" width="500" alt="Awesome Tool LOL" align="left"/>
+<img src="images/logo.png" width="255" alt="Awesome Tool LOL" align="right"/><br>
 
 
 -
